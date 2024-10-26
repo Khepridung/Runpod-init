@@ -39,6 +39,8 @@ NODES=(
 	"https://github.com/hylarucoder/comfyui-copilot"
 	"https://github.com/kijai/ComfyUI-KJNodes"
 	"https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
+        "https://github.com/heshengtao/comfyui_LLM_party"
+        "https://github.com/kijai/ComfyUI-Florence2"
 )
 
 WORKFLOWS=(
@@ -50,74 +52,46 @@ CHECKPOINT_MODELS=(
 	#"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
 	#"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
 	#"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
+         "https://huggingface.co/Khepridung/ayoub/resolve/main/flux1-dev.safetensors"
 )
 
 UNET_MODELS=(
 	#"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/flux1-dev.sft"
+         "https://huggingface.co/Khepridung/ayoub/resolve/main/flux1-dev.safetensors"
 )
 
 CLIP_MODELS=(
 	"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/clip_l.safetensors"
 	"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/t5xxl_fp16.safetensors"
+        "https://huggingface.co/Khepridung/ayoub/resolve/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors"
 )
 
 LORA_MODELS=(
 	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/AssassinKahb-8-16-e9-10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/AssassinKahb-flux-1024x-Kappa-Prodigy-e12.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/CyberSocietyV0-e1.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/CyberSocietyV1-e1.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/CyberSocietyV3-000001.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/CyberSocietyV33-000010.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/NTTW-V1-Flux-e7-10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/NTTW-V2-kappa-e11-13.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/NTTW-V3-4-16-e9-10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/NTTW-V3-lite-e10-12.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/NTTW-V4-lite-8-16-e9-10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/NTTW-v55-e10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/Thorra-Airship-4-16-e10-12.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/Thorra-Lite-V2-Actions-e9-10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/Thorra-Lite-V2-Scenes-e9-10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/Thorra-Lite-V2-e10-10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/Thorra-machine-cities-4-16-e10-12.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/WomanV3-000001.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/Womanv33-e9.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/blacksun-v0-8-16-e9-10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/blacksunV1-e9-10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/blacksunV3-e1.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/blacksunV44-e9.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/blacksunv2-000001.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/blacksunv2-e1.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/blacksunv33-e9.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/blacksunv4-e1.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/cyberninjaV00-e10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/cybersocietyV11-e9.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/cybersocietyV2-000001.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/cybersocietyV22-000010.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/cybersocietyV4-000001.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/cybersocietyV55-000007.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/cybersocietyV6-000001.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/cybersocietyV66-e5.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/ducreux-8-16-e8-10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/notthetrueworldV5-e1.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/oldgodsV11_r1-e9-06.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/oldgodsv0.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/oldgodsv00-e9.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/oldgodsv1.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/womanv00-e10.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/womanv1-fast.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/womanv2-fast.safetensors"
-	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/womanv22-000019.safetensors"
+	"https://huggingface.co/Khepridung/loras/resolve/main/Anime_Screencap_-_Style-000004.safetensors"
+	"https://huggingface.co/Khepridung/loras/resolve/main/C64_Flux2.safetensors"
+	"https://huggingface.co/Khepridung/loras/resolve/main/Comic%20book%20V2.safetensors"
+	"https://huggingface.co/Khepridung/loras/resolve/main/Eldritch_Paint_Sketch_for_Flux_1.0.5.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Eldritch_Pastels_for_Flux_1.0.2.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Graffiti_Logo_Style_Flux.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/IlluLoRA_V1.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/KikiLaPetiteSorciere_style_flux_v1.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/OB%E4%B8%AD%E4%B8%96%E7%BA%AA%E6%B2%B9%E7%94%BBv1.1.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/PostageStamp01_CE_FLUX3k_AIT.safetensors"
 )
 
 VAE_MODELS=(
-    #"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/ae.sft"
+    "https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/ae.sft"
     #"https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
+    "https://huggingface.co/Khepridung/ayoub/resolve/main/flux1DevVAE_safetensors.safetensors"
 )
 
 ESRGAN_MODELS=(
-    #"https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
+    "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
     "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
-    #"https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
+    "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
+    "https://huggingface.co/uwg/upscaler/resolve/main/ESRGAN/4x_NickelbackFS_72000_G.pth"
+    "https://huggingface.co/gemasai/4x_NMKD-Siax_200k/resolve/main/4x_NMKD-Siax_200k.pth"
 )
 
 CONTROLNET_MODELS=(
