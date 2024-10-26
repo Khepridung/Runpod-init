@@ -78,6 +78,15 @@ LORA_MODELS=(
  "https://huggingface.co/Khepridung/loras/resolve/main/KikiLaPetiteSorciere_style_flux_v1.safetensors"
  "https://huggingface.co/Khepridung/loras/resolve/main/OB%E4%B8%AD%E4%B8%96%E7%BA%AA%E6%B2%B9%E7%94%BBv1.1.safetensors"
  "https://huggingface.co/Khepridung/loras/resolve/main/PostageStamp01_CE_FLUX3k_AIT.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Psychedelic_Noir.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/ROYGBIV_Flux_v2_renderartist.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/RetroAnimeFluxV1.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Retro_Comic_Flux_v1_renderartist.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Rubber_Hose_Style_for_FLUX.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Simple_Vector_Flux_v2_renderartist.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Tang%20Bohu's%20Painting%20Style%20LORA%20%5BFLUX%5D_epoch_10.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Vaporwave_Graphic-e5.safetensors?download=true"
+ ""
 )
 
 VAE_MODELS=(
