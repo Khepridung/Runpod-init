@@ -86,7 +86,21 @@ LORA_MODELS=(
  "https://huggingface.co/Khepridung/loras/resolve/main/Simple_Vector_Flux_v2_renderartist.safetensors"
  "https://huggingface.co/Khepridung/loras/resolve/main/Tang%20Bohu's%20Painting%20Style%20LORA%20%5BFLUX%5D_epoch_10.safetensors"
  "https://huggingface.co/Khepridung/loras/resolve/main/Vaporwave_Graphic-e5.safetensors?download=true"
- ""
+ "https://huggingface.co/Khepridung/loras/resolve/main/Video_Game_Status_-_Flux.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Vintage_Vibes_FLUX_DEF.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Wiz-RubberHoseAnimation_Flux.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Wiz-Vintage_Comic-Legacy.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/WorldofDoodleFlux.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/barbier_flux-000003.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/c0l0ringb00k_Flux_v1_renderartist.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/creepcute-000001.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/fla8.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/impasto%20painting.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/incase_new_flux.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/old_comicbook_flux.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/pixel-art-flux-v3-learning-rate-4.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/pktrainer_F1-v1-0.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/vector_shirt_flux_v1.safetensors?download=true"
 )
 
 VAE_MODELS=(
