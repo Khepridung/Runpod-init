@@ -39,8 +39,13 @@ NODES=(
 	"https://github.com/hylarucoder/comfyui-copilot"
 	"https://github.com/kijai/ComfyUI-KJNodes"
 	"https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
+<<<<<<< HEAD
+    "https://github.com/heshengtao/comfyui_LLM_party"
+    "https://github.com/kijai/ComfyUI-Florence2"
+=======
         "https://github.com/heshengtao/comfyui_LLM_party"
         "https://github.com/kijai/ComfyUI-Florence2"
+>>>>>>> 148bccd4dafde8ad28a115f7c6ce105d56aacfd9
 )
 
 WORKFLOWS=(
@@ -52,22 +57,40 @@ CHECKPOINT_MODELS=(
 	#"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
 	#"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
 	#"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
+<<<<<<< HEAD
+     "https://huggingface.co/Khepridung/ayoub/resolve/main/flux1-dev.safetensors"
+=======
          "https://huggingface.co/Khepridung/ayoub/resolve/main/flux1-dev.safetensors"
+>>>>>>> 148bccd4dafde8ad28a115f7c6ce105d56aacfd9
 )
 
 UNET_MODELS=(
 	#"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/flux1-dev.sft"
+<<<<<<< HEAD
+     "https://huggingface.co/Khepridung/ayoub/resolve/main/flux1-dev.safetensors"
+=======
          "https://huggingface.co/Khepridung/ayoub/resolve/main/flux1-dev.safetensors"
+>>>>>>> 148bccd4dafde8ad28a115f7c6ce105d56aacfd9
 )
 
 CLIP_MODELS=(
 	"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/clip_l.safetensors"
 	"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/t5xxl_fp16.safetensors"
+<<<<<<< HEAD
+    "https://huggingface.co/Khepridung/ayoub/resolve/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors"
+=======
         "https://huggingface.co/Khepridung/ayoub/resolve/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors"
+>>>>>>> 148bccd4dafde8ad28a115f7c6ce105d56aacfd9
 )
 
 LORA_MODELS=(
 	"https://huggingface.co/mushroomfleet/Flux-Lora-Collection/resolve/main/AssassinKahb-8-16-e9-10.safetensors"
+<<<<<<< HEAD
+	"https://huggingface.co/Khepridung/loras/resolve/main/Anime_Screencap_-_Style-000004.safetensors"
+	"https://huggingface.co/Khepridung/loras/resolve/main/C64_Flux2.safetensors"
+	"https://huggingface.co/Khepridung/loras/resolve/main/Comic%20book%20V2.safetensors"
+	""
+=======
 	"https://huggingface.co/Khepridung/loras/resolve/main/Anime_Screencap_-_Style-000004.safetensors"
 	"https://huggingface.co/Khepridung/loras/resolve/main/C64_Flux2.safetensors"
 	"https://huggingface.co/Khepridung/loras/resolve/main/Comic%20book%20V2.safetensors"
@@ -85,22 +108,23 @@ LORA_MODELS=(
  "https://huggingface.co/Khepridung/loras/resolve/main/Rubber_Hose_Style_for_FLUX.safetensors"
  "https://huggingface.co/Khepridung/loras/resolve/main/Simple_Vector_Flux_v2_renderartist.safetensors"
  "https://huggingface.co/Khepridung/loras/resolve/main/Tang%20Bohu's%20Painting%20Style%20LORA%20%5BFLUX%5D_epoch_10.safetensors"
- "https://huggingface.co/Khepridung/loras/resolve/main/Vaporwave_Graphic-e5.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/Video_Game_Status_-_Flux.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/Vintage_Vibes_FLUX_DEF.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/Wiz-RubberHoseAnimation_Flux.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/Wiz-Vintage_Comic-Legacy.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/WorldofDoodleFlux.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/barbier_flux-000003.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/c0l0ringb00k_Flux_v1_renderartist.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/creepcute-000001.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/fla8.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/impasto%20painting.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/incase_new_flux.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/old_comicbook_flux.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/pixel-art-flux-v3-learning-rate-4.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/pktrainer_F1-v1-0.safetensors?download=true"
- "https://huggingface.co/Khepridung/loras/resolve/main/vector_shirt_flux_v1.safetensors?download=true"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Vaporwave_Graphic-e5.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Video_Game_Status_-_Flux.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Vintage_Vibes_FLUX_DEF.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Wiz-RubberHoseAnimation_Flux.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/Wiz-Vintage_Comic-Legacy.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/WorldofDoodleFlux.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/barbier_flux-000003.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/c0l0ringb00k_Flux_v1_renderartist.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/creepcute-000001.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/fla8.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/impasto%20painting.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/incase_new_flux.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/old_comicbook_flux.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/pixel-art-flux-v3-learning-rate-4.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/pktrainer_F1-v1-0.safetensors"
+ "https://huggingface.co/Khepridung/loras/resolve/main/vector_shirt_flux_v1.safetensors"
+>>>>>>> 148bccd4dafde8ad28a115f7c6ce105d56aacfd9
 )
 
 VAE_MODELS=(
