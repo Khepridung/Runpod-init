@@ -46,20 +46,20 @@ NODES=(
 	"https://github.com/Clybius/ComfyUI-Extra-Samplers"
         "https://github.com/logtd/ComfyUI-Fluxtapoz"
 	"https://github.com/kijai/ComfyUI-SUPIR"
- "https://github.com/shiimizu/ComfyUI-TiledDiffusion"
- "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
- "https://github.com/kadirnar/ComfyUI-YOLO"
- "https://github.com/pamparamm/ComfyUI-ppm"
- "https://github.com/city96/ComfyUI_ExtraModels"
- "https://github.com/cubiq/ComfyUI_InstantID"
- "https://github.com/bvhari/ComfyUI_SUNoise"
- "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
- "https://github.com/gokayfem/ComfyUI_VLM_nodes"
- "https://github.com/chrisgoringe/cg-use-everywhere"
- "https://github.com/shadowcz007/comfyui-mixlab-nodes"
- "https://github.com/jags111/efficiency-nodes-comfyui"
- "https://github.com/Stability-AI/stability-ComfyUI-nodes"
- "https://github.com/XLabs-AI/x-flux-comfyui"
+        "https://github.com/shiimizu/ComfyUI-TiledDiffusion"
+        "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
+        "https://github.com/kadirnar/ComfyUI-YOLO"
+        "https://github.com/pamparamm/ComfyUI-ppm"
+        "https://github.com/city96/ComfyUI_ExtraModels"
+        "https://github.com/cubiq/ComfyUI_InstantID"
+        "https://github.com/bvhari/ComfyUI_SUNoise"
+        "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+        "https://github.com/gokayfem/ComfyUI_VLM_nodes"
+        "https://github.com/chrisgoringe/cg-use-everywhere"
+        "https://github.com/shadowcz007/comfyui-mixlab-nodes"
+        "https://github.com/jags111/efficiency-nodes-comfyui"
+        "https://github.com/Stability-AI/stability-ComfyUI-nodes"
+        "https://github.com/XLabs-AI/x-flux-comfyui"
 )
 
 WORKFLOWS=(
@@ -72,11 +72,13 @@ CHECKPOINT_MODELS=(
 	#"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
 	#"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
          "https://huggingface.co/Khepridung/ayoub/resolve/main/flux1-dev.safetensors"
+	 "https://huggingface.co/mikeyandfriends/PixelWave_FLUX.1-dev_03/resolve/main/pixelwave_flux1_dev_bf16_03.safetensors"
 )
 
 UNET_MODELS=(
 	#"https://huggingface.co/camenduru/FLUX.1-dev/resolve/main/flux1-dev.sft"
          "https://huggingface.co/Khepridung/ayoub/resolve/main/flux1-dev.safetensors"
+	 "https://huggingface.co/mikeyandfriends/PixelWave_FLUX.1-dev_03/resolve/main/pixelwave_flux1_dev_bf16_03.safetensors"
 )
 
 CLIP_MODELS=(
